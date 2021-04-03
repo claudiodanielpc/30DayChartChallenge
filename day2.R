@@ -72,7 +72,6 @@ Fuente: @claudiodanielpc con datos de INEGI. Censo de Población y Vivienda 2020
         axis.text.x=element_text(size=12))
 
 
-
 ##Salvar gráfico
 ggsave("day2.png",height=10,width=20)
 
