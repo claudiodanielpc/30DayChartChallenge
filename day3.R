@@ -11,7 +11,7 @@ setwd("C:/Users/ALIENWARE/Documents/GitHub/30DayChartChallenge")
 
 #Librerías
 if(!require('pacman')) install.packages('pacman')
-pacman::p_load(tidyverse,scales, lubridate)
+pacman::p_load(tidyverse, extrafont)
 
 #Datos
 movi = read.csv("https://datos.cdmx.gob.mx/datastore/dump/5d33f9c7-e033-4676-a02d-9e2129017acf?bom=True", 
