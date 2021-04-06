@@ -4,7 +4,7 @@
 
 ##Borrar datos del entorno
 rm(list=ls())
-read.de
+
 
 #Directorio de trabajo
 setwd("C:/Users/ALIENWARE/Documents/GitHub/30DayChartChallenge")
