@@ -102,4 +102,4 @@ Fuente: @claudiodanielpc con datos de la Comisión Nacional del Agua (CONAGUA) d
   
 
 ##Salvar el gráfico
-ggsave("day7.png",height = 24,width = 30, units="in",dpi=320)
+ggsave("day7.png",height = 24,width = 30, units="in",dpi=300)
