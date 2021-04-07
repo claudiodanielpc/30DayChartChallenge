@@ -75,8 +75,6 @@ ggplot(.,
        subtitle = "1985-2019",
        y = "Meses",
        caption = "Notas: 
-La Jornada Nacional de Sana Distancia fue el nombre que utilizó el Gobierno de México para definir el confinamiento.
-Por otra parte, El semáforo epidemiológico es un sistema de monitoreo para la regulación del uso del espacio público de acuerdo con el riesgo de contagio de COVID-19.
 Fuente: @claudiodanielpc con datos de la Comisión Nacional del Agua (CONAGUA) datos.conagua.gob.mx")+
   ##Temita
   theme(legend.position="bottom",
@@ -87,8 +85,9 @@ Fuente: @claudiodanielpc con datos de la Comisión Nacional del Agua (CONAGUA) d
         legend.text=element_text(colour="black",size=25,face="bold"),
         legend.key.height=grid::unit(0.8,"cm"),
         legend.key.width=grid::unit(2,"cm"),
-        axis.text.x=element_text(colour="black", size=25,angle=90),
-        axis.text.y=element_text(colour="black",size=25),
+        axis.text.x=element_text(colour="black", size=25,
+                                 angle=90, vjust=0.5),
+        axis.text.y=element_text(colour="black",size=15),
         axis.ticks=element_blank(),
         plot.background=element_blank(),
         panel.border=element_blank(),
@@ -103,4 +102,4 @@ Fuente: @claudiodanielpc con datos de la Comisión Nacional del Agua (CONAGUA) d
   
 
 ##Salvar el gráfico
-ggsave("day7.png",height = 30,width = 40, units="in",dpi=400)
+ggsave("day7.png",height = 24,width = 30, units="in",dpi=320)
