@@ -46,7 +46,8 @@ censo2020%>%
            size=10)+
   theme_minimal()+
   labs(
-    title = "México. Población soltera y viviendas con consola de videojuegos",
+    title = "México. Población soltera y viviendas con consola de videojuegos
+por municipio",
     caption = "
 Fuente: @claudiodanielpc con datos de INEGI. Censo de Población y Vivienda 2020."
   )+
