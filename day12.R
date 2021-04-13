@@ -53,8 +53,9 @@ catastro <- catastro %>%
   filter(anio_construccion>=1900 )
 
 
-
+#Gráfico
 catastro%>%
+  #Acentos a los nombres de alcaldías
   mutate(alcaldia_cumplimiento =
                   case_when(alcaldia_cumplimiento=="CUAUHTEMOC" ~
                               "CUAUHTÉMOC",  
