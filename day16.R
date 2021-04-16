@@ -37,7 +37,7 @@ pef2021%>%
                            sep="\n")))+
   geom_treemap()+
   geom_treemap_text(fontface = "bold", 
-                    colour = "#dd3497", place = "topleft",
+                    colour = "black", place = "topleft",
                     grow = F)+
   ggthemes::theme_stata(base_family = "sans")+
 labs(title="Presupuesto de Egresos de la Federación por ramo, 2021",
@@ -48,7 +48,7 @@ Fuente: @claudiodanielpc con datos de la Secretaría de Hacienda y Crédito Púb
         plot.subtitle = element_text(hjust = 0, size=20, face="italic"),
         plot.caption = element_text(hjust = 0,size=15),
         legend.position ="none")+
-  scale_fill_distiller(type="seq",palette = "Blues",
+  scale_fill_distiller(type="seq",palette = "YlGn",
                        direction = 1)
 
 
