@@ -1,5 +1,5 @@
 ###Script #30DayChartChallenge
-#Día 16
+#Día 17
 #Pop culture
 
 ##Borrar datos del entorno
