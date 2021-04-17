@@ -17,7 +17,7 @@ pacman::p_load(tidyverse, extrafont,
 
 
 #URL canción: Wannabe de Spice Girls
-url<-"http://www.songlyrics.com/spice-girls/wannabe-spice-up-your-life-lyrics/"
+url<-"http://www.songlyrics.com/spice-girls/wannabe-instrumental-lyrics/"
 
 
 # Extraer letra de canción
