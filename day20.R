@@ -76,7 +76,8 @@ ipc%>%
             hjust=0.5,
             arrow = arrow(length = unit(0.02, "npc")))+
   theme_economist_white(base_family = "sans")+
-  scale_y_continuous("Var. % anual",labels = scales::comma)+
+  scale_y_continuous("Var. % anual",
+                     labels = scales::comma)+
   scale_x_date("Mes",
     date_breaks = "6 month", 
                date_labels = "%b %Y")+ 
