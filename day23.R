@@ -1,6 +1,6 @@
   ###Script #30DayChartChallenge
-  #Día 22
-  #Animation
+  #Día 23
+  #Tiles
   
   ##Borrar datos del entorno
   rm(list=ls())
