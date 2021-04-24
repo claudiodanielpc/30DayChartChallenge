@@ -4,7 +4,7 @@
 rm(list=ls())
 
 if(!require('pacman')) install.packages('pacman')
-pacman::p_load(tidyverse, ggpol,extrafont,
+pacman::p_load(tidyverse, extrafont,
                lubridate, scales, gganimate, gifski)
 
 #Directorio de trabajo
