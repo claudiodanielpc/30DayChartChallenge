@@ -1,4 +1,6 @@
-##Script para construir pirámide poblacional dinámica
+###Script #30DayChartChallenge
+#Día 25
+#Demographic
 
 ##Borrar datos del entorno
 rm(list=ls())

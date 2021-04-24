@@ -1,6 +1,6 @@
 ###Script #30DayChartChallenge
-#Día 8
-#Animals
+#Día 24
+#Monochrome 
 
 ##Borrar datos del entorno
 rm(list=ls())
