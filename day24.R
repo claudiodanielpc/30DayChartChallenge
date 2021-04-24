@@ -28,7 +28,7 @@ pesca<-read.csv(url, encoding = "latin1")%>%
 pesca%>%
   mutate(captura_toneladas=
            captura_toneladas/1000000)%>%
-  ggplot(., aes(x=litoral, y=captura_toneladas)) +
+  ggplot(., aes(x=litoral, y=captura_toneladas, fill=litoral)) +
   
   geom_histogram(
                  position="identity", stat="sum")+
@@ -37,13 +37,13 @@ pesca%>%
   facet_wrap(~year, ncol=3)+
   geom_text(aes(label=format(round(captura_toneladas,2))),
             hjust=0,
-            color="#35978f",
+            color="black",
             size=6.5,fontface="bold")+
   scale_y_continuous("Millones de toneladas",
                      limits =c(0,3),
                      breaks=c(0,3))+
   
-  theme_minimal()+
+  theme_grey()+
   labs(title = "Captura pesquera nacional",
        subtitle = "1991-2017",
        x="Litoral",
@@ -62,7 +62,7 @@ Fuente: @claudiodanielpc con datos de la Secretaría de Medio Ambiente y Recurso
                           size=20),
         axis.text.x=element_text(size=15),
         strip.background = element_rect(
-          color="black", fill="#FC4E07", 
+          color="black", fill="transparent", 
           size=1.5, linetype="solid"
         ),
         strip.text = element_text(
@@ -72,4 +72,4 @@ Fuente: @claudiodanielpc con datos de la Secretaría de Medio Ambiente y Recurso
 
 
 ##Salvar gráfico
-ggsave("day8.png", width = 20, height = 15)
+ggsave("day24.png", width = 20, height = 15)
