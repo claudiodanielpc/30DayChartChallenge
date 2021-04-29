@@ -84,7 +84,7 @@ banxico%>%
                      breaks = seq(from = 2009, 
                                   to = 2020, by = 1))+
   labs(
-    title = "Producto Interno Bruto de México",
+    title = "Producto Interno Bruto de México, 2009-2020",
     subtitle="Variación porcentual anual.
 Observado y estimado por analistas en enero de cada año",
     y="Variación % anual",
