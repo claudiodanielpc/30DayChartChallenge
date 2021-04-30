@@ -1,6 +1,6 @@
 ###Script #30DayChartChallenge
-#Día 12
-#Strips
+#Día 30
+#3D
 
 ##Borrar datos del entorno
 rm(list=ls())
@@ -78,9 +78,7 @@ Agencia Digital de Innovación Pública (ADIP). Sistema Abierto de Información 
         text=element_text("Dubai",size=20))
 
 
-#ggsave("day12.png", height=10, width=20, units='in', dpi=300)
-
-
+##Generar gráfica en 3D y salvarla
 plot_gg(p, width = 10, 
         height = 8,multicore=TRUE,
          windowsize = c(1400, 866), scale=250,
