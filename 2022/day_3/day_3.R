@@ -17,7 +17,7 @@ pacman::p_load(tidyverse)
 
 ##Liga de descarga de archivo Excel
 url<-"http://www.conasami.gob.mx/pdf/datosAbiertos/2019/SalariosMinimosGenerales/SalarioM%C3%ADnimoHist%C3%B3rico1877-2019_corteabril.xls"
-download.file(url, ,mode="wb",
+download.file(url, mode="wb",
               destfile = "day_3/salmin.xls")
 
 
